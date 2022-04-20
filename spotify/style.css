@@ -1,0 +1,129 @@
+/*layout*/ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    height: 100%;
+    font-size: 16px;
+   
+  }
+  body {
+    height: 100vh;
+      witdh: 100vw;
+    display:flex;
+    flex-direction:column;
+    font-family: sans-serif;
+    text-decoration: none;
+    border: 5px dashed red;
+     }
+  header {
+    border: 5px dashed pink;
+  }
+   .sptfy{
+    display:flex, flex;
+    display: flex;
+    position: fixed left; 
+    height: 1.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+   }
+  .menu {
+    height: 1em;
+    width: 100%;
+  }
+   nav>ul>li{
+     display: flex;
+     justify-content: flex-end;
+     justify-content: right;
+     margin-right: 1em;
+     justify-content: space-between;
+     display: inline-block;
+     list-style-type: none;
+     font-size: 10px;
+    }
+  
+  a {
+    color: black;
+    text-decoration: none;
+    }
+  .cover {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-image  {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    /*width: 100hv;*/
+    position: relative;
+    height: 100%;
+  }
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  h2 {
+    display: flex;
+    justify-content: center;
+    text-decoration-line: underline;
+   }
+  .box-one .box-two .box-three {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: green;
+    }
+  footer {
+   background-color: #32a885; 
+   color: white;
+  }
+  .text {
+
+  }
+  
+  h2 {}
+  
+  h3 {}
+  
+  p {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .icon {
+  
+  }
+  
+  
+  
+  }
+  .text {
+    font-color: white;
+  }
+  
+  .pht-kw {
+    height: 20em;
+    margin-left: 5em;
+  }
+  
+  .logo {
+   
+    display: flex;
+    object-fit:
+    
+  }
